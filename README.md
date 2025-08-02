@@ -3,8 +3,13 @@ Segoss Hair is a modern, responsive website designed for a premium hair business
 
 Features:
 Clean, modern layout
+
 Product gallery with images and pricing
+
 Responsive design (mobile-friendly)
+
 Contact and booking section
+
 Social media integration
+
 This site is built using HTML, CSS, and JavaScript. It represents both my front-end development skills and my passion for beauty & branding.
