@@ -12,6 +12,15 @@
   <a href="#contact">Contact</a>
   <input type="text" placeholder="Search..">
 </div>
+<div id="cart-display">
+<h2>Your Cart</h2>
+  <input type="text" id="coupon-code" placeholder="Enter coupon code">
+  <button id="apply-coupon">Apply Coupon</button>
+<div id="cart-icon" style="float:right; margin-right:20px; cursor:pointer;">
+  🛒 <span id="cart-count">0</span>
+</div>
+</div>
+<div id="checkout-cart-items"></div>
 <br />
 <br />
 
@@ -104,21 +113,51 @@
     
 </div>
 
+<div id="cart-display">
+<h2>Your Cart</h2>
+  <input type="text" id="coupon-code" placeholder="Enter coupon code">
+  <button id="apply-coupon">Apply Coupon</button>
+<div id="cart-icon" style="float:right; margin-right:20px; cursor:pointer;">Cart 🛒 <span id="cart-count">0</span>
+  <h2>Checkout</h2>
+<div id="checkout-cart-items"></div>
+
+<form id="checkout-form">
+  <label for="name">Full Name:</label><br />
+  <input type="text" id="name" required /><br />
+
+  <label for="email">Email:</label><br />
+  <input type="email" id="email" required /><br />
+
+  <label for="address">Shipping Address:</label><br />
+  <textarea id="address" rows="3" required></textarea><br />
+
+  <button type="submit">Place Order</button>
+</form>
+
+<div id="order-message"></div>
+</div>
+</div>
+
+
 <h4>Contact</h4>
 
 <div class="done">
 
   <button class="made" onclick="goToInstagram()" ><strong>Instagram</strong></button>
-  <button class="made" id="sendEmail"><strong>Redbillion67@gmail.com</strong></button>
-  <button class="made"onclick="goToTelegram()" ><strong>WhatsApp</strong></button>
+  <button class="made" id="sendEmail"><strong>Lesegondhlovu05@gmail.com</strong></button>
+  <button class="made"onclick="goToWhatsapp()" ><strong>WhatsApp</strong></button>
 
 </div>
+<div id="cart-notification">
+  <img id="notif-img" src="" alt="" style="width:40px;height:40px;object-fit:cover;border-radius:5px;margin-right:10px;">
+  <span id="notif-text"></span>
 
 <link rel="stylesheet" href="style.css"/>
 
   </head>
   <body>
-    <script src="script.js"></script>
+    <script src="app.js"></script>
+
 
   </body>
 </html>
