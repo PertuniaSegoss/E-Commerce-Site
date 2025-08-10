@@ -1,13 +1,13 @@
 // Instagram & Telegram links
 function goToInstagram() {
   window.location.href =
-    "https://www.instagram.com/redbillionforex__/profilecard/?igsh=MXFxYmk0YzFnNHQ0OQ==";
+    "https://www.instagram.com/segosshair?igsh=ZHc3b2U0cDMwbTVu";
 }
 function goToWhatsapp() {
   window.location.href = "https://wa.me/qr/FBEPAOOALXZJJ1 ";
 }
 document.getElementById("sendEmail").addEventListener("click", function () {
-  const email = "Lesegondhlovu05@gmail.com";
+  const email = "Segosshair@gmail.com";
   const subject = "Segoss Hair Inquiry";
   const body = "Hello, I would like to know more about your products.";
   window.location.href = `mailto:${email}?subject=${encodeURIComponent(
@@ -361,3 +361,4 @@ document
 document.addEventListener("DOMContentLoaded", () => {
   displayCheckoutItems();
 });
+
